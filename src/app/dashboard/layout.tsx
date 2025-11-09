@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function CommonAdminDashboardLayout({children} : {children : React.ReactNode}) {
     return (
         <div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 max-w-4xl mx-auto">
                 <aside className="w-64 p-4 border-r">
                     <h1>Dashboard</h1>
                     <nav>

@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-4xl mx-auto`}
       >
         <header className="flex justify-between items-center gap-4 max-w-4xl mx-auto">
           <h1>Nazmul hasan</h1>
@@ -34,6 +34,7 @@ export default function RootLayout({
             <Link href={'/medi'}>Medi</Link>
             <Link href={'/products'}>Product</Link>
             <Link href={'/profile'}>Profile</Link>
+            <Link href={'/dashboard'}>Dashboard</Link>
           </nav>
         </header>
 
